@@ -14,7 +14,7 @@ function App() {
     <>
       <Header />
       <ScrollToTop />
-      <Routes>
+      <Routes basename="/Estatein">
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/properties" element={<Properties />} />
