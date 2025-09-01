@@ -7,11 +7,13 @@ import Properties from './pages/Properties'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
 import Property from './pages/Property'
+import ScrollToTop from './components/scrollToTop';
 
 function App() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

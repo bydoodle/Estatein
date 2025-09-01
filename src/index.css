@@ -37,6 +37,8 @@
 }
 
 #root {
+  position: relative;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -47,16 +49,11 @@ body {
 }
 
 h2 {
-  font-size: 60px;
-  letter-spacing: 0%;
-  line-height: 120%;
+  @apply 2xl:text-6xl tracking-normal font-semibold leading-[120%] xl:text-[46px];
 }
 
 h3 {
-  font-size: 48px;
-  letter-spacing: 0%;
-  font-weight: 600;
-  line-height: 150%;
+  @apply 2xl:text-5xl tracking-normal font-semibold leading-[150%] xl:text-[38px];
 }
 
 h4 {
@@ -67,17 +64,11 @@ h4 {
 }
 
 h5 {
-  font-size: 24px;
-  letter-spacing: 0%;
-  font-weight: 600;
-  line-height: 150%;
+  @apply 2xl:text-[24px] tracking-normal font-semibold leading-[150%] xl:text-[20px];
 }
 
 h6 {
-  font-size: 20px;
-  letter-spacing: 0%;
-  font-weight: 600;
-  line-height: 150%;
+  @apply 2xl:text-[20px] tracking-normal font-semibold leading-[150%] xl:text-[16px];
 }
 
 .small-text {
@@ -85,11 +76,11 @@ h6 {
 }
 
 .default-text {
-  @apply text-lg tracking-normal leading-[150%];
+  @apply 2xl:text-lg tracking-normal leading-[150%] xl:text-[16px];
 }
 
 .large-text {
-  @apply text-[40px] tracking-normal leading-[150%] font-bold;
+  @apply 2xl:text-[40px] xl:text-[30px] tracking-normal leading-[150%] font-bold ;
 }
 
 .page-wrapper {
@@ -97,27 +88,27 @@ h6 {
 }
 
 .active-header-link {
-  @apply bg-gr08 outline outline-gr15 px-[24px] py-[14px] rounded-[10px];
+  @apply bg-gr08 outline outline-gr15 2xl:px-[24px] 2xl:py-[14px] rounded-[10px] xl:rounded-[8px] xl:py-3 xl:px-5;
 }
 
 .link-tr {
-  @apply px-6 py-[18px] rounded-[10px] outline outline-gr15
+  @apply 2xl:px-6 2xl:py-[18px] 2xl:rounded-[10px] xl:px-5 xl:py-[14px] xl:rounded-[8px] outline outline-gr15
 }
 
 .link-gr {
-  @apply px-6 py-[18px] rounded-[10px] outline outline-gr15 bg-gr10
+  @apply 2xl:px-6 2xl:py-[18px] 2xl:rounded-[10px] xl:px-5 xl:py-[14px] xl:rounded-[8px] outline outline-gr15 bg-gr10
 }
 
 .link-pr {
-  @apply px-6 py-[18px] rounded-[10px] bg-pr60 text-center
+  @apply 2xl:px-6 2xl:py-[18px] 2xl:rounded-[10px] xl:px-5 xl:py-[14px] xl:rounded-[8px]  bg-pr60 text-center
 }
 
 .card-gr {
-  @apply px-6 py-4 rounded-[10px] outline outline-gr15 bg-gr10
+  @apply 2xl:px-6 2xl:py-4 xl:px-5 xl:py-[14px] rounded-[10px] outline outline-gr15 bg-gr10
 }
 
 .card-big-gr {
-  @apply px-5 py-10 rounded-[12px] outline outline-gr15 bg-gr10
+  @apply 2xl:px-5 2xl:py-10 2xl:rounded-[12px] xl:px-4 xl:py-[30px] xl:rounded-[10px] outline outline-gr15 bg-gr10
 }
 
 .mySwiper .swiper-slide {
@@ -137,7 +128,7 @@ h6 {
 }
 
 .tag-pill {
-  @apply flex gap-1 px-[14px] py-2 rounded-full outline outline-gr15 h-min
+  @apply flex whitespace-nowrap gap-1 px-[14px] 2xl:py-2 xl:py-[6px] rounded-full outline outline-gr15 h-min 2xl:text-lg xl:text-sm
 }
 
 .swiper {
@@ -153,7 +144,7 @@ h6 {
 }
 
 .swiper-slide {
-  @apply p-10 rounded-[12px] border border-gr15 !flex flex-col gap-[30px]
+  @apply 2xl:p-10 xl:p-[30px] rounded-[12px] border border-gr15 !flex flex-col 2xl:gap-[30px] xl:gap-5 !h-auto
 }
 
 .nav-wrapper {
@@ -161,7 +152,7 @@ h6 {
 }
 
 .star-bg {
-  @apply outline outline-gr15 bg-gr10 rounded-full size-11 text-[#FFE500] p-[10px]
+  @apply outline outline-gr15 bg-gr10 rounded-full 2xl:size-11 xl:size-9 text-[#FFE500] 2xl:p-[10px] xl:p-2
 }
 
 .email-container {
@@ -169,7 +160,7 @@ h6 {
 }
 
 .stars-before-header {
-  @apply before:content-[""] before:absolute before:-top-11 before:-left-5 before:w-[69px] before:h-[30px] before:bg-[url("/stars.svg")] before:bg-no-repeat
+  @apply before:content-[""] before:absolute 2xl:before:-top-11 2xl:before:-left-5 xl:before:-top-7 xl:before:-left-3 2xl:before:w-[69px] xl:before:w-[55px] 2xl:before:h-[30px] xl:before:h-[24px] before:bg-[url("/stars.svg")] before:bg-no-repeat
 }
 
 .gradient-cards-bg {
