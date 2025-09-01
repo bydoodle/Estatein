@@ -11,7 +11,7 @@ import ScrollToTop from './components/scrollToTop';
 
 function App() {
   return (
-    <BrowserRouter basename="/Estatein">
+    <>
       <Header />
       <ScrollToTop />
       <Routes>
@@ -23,7 +23,7 @@ function App() {
         <Route path='property/:id' element={<Property />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </>
   )
 }
 
