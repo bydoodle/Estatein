@@ -23,7 +23,7 @@ function App() {
         <Route path='property/:id' element={<Property />} />
       </Routes>
       <Footer />
-    </Brows>
+    </BrowserRouter>
   )
 }
 
