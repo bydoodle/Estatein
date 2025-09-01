@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-pr60: #703BF7;
+  --color-pr65: #8254F8;
+  --color-pr70: #946CF9;
+  --color-pr75: #A685FA;
+  --color-pr90: #DBCEFD;
+  --color-pr95: #EDE7FE;
+  --color-pr97: #F4F0FE;
+  --color-pr99: #FBFAFF;
+
+  --color-wh90: #E4E4E7;
+  --color-wh95: #F1F1F3;
+  --color-wh97: #F7F7F8;
+  --color-wh99: #FCFCFD;
+
+  --color-gr08: #141414;
+  --color-gr10: #1A1A1A;
+  --color-gr15: #262626;
+  --color-gr20: #333333;
+  --color-gr30: #4D4D4D;
+  --color-gr40: #666666;
+  --color-gr50: #808080;
+  --color-gr60: #999999;
+}
+
+:root {
+  color: white;
+
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 60px;
+  letter-spacing: 0%;
+  line-height: 120%;
+}
+
+h3 {
+  font-size: 48px;
+  letter-spacing: 0%;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+h4 {
+  font-size: 30px;
+  letter-spacing: 0%;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 0%;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+h6 {
+  font-size: 20px;
+  letter-spacing: 0%;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.small-text {
+  @apply text-base tracking-normal leading-[150%];
+}
+
+.default-text {
+  @apply text-lg tracking-normal leading-[150%];
+}
+
+.large-text {
+  @apply text-[40px] tracking-normal leading-[150%] font-bold;
+}
+
+.page-wrapper {
+  @apply pb-30 bg-gr08 flex flex-col justify-center 
+}
+
+.active-header-link {
+  @apply bg-gr08 outline outline-gr15 px-[24px] py-[14px] rounded-[10px];
+}
+
+.link-tr {
+  @apply px-6 py-[18px] rounded-[10px] outline outline-gr15
+}
+
+.link-gr {
+  @apply px-6 py-[18px] rounded-[10px] outline outline-gr15 bg-gr10
+}
+
+.link-pr {
+  @apply px-6 py-[18px] rounded-[10px] bg-pr60 text-center
+}
+
+.card-gr {
+  @apply px-6 py-4 rounded-[10px] outline outline-gr15 bg-gr10
+}
+
+.card-big-gr {
+  @apply px-5 py-10 rounded-[12px] outline outline-gr15 bg-gr10
+}
+
+.mySwiper .swiper-slide {
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-pagination-bullet {
+  @apply !bg-gr30 !w-5 !rounded-full !h-[5px]
+}
+
+.swiper-pagination-bullet-active {
+  @apply !bg-pr60
+}
+
+.tag-pill {
+  @apply flex gap-1 px-[14px] py-2 rounded-full outline outline-gr15 h-min
+}
+
+.swiper {
+  @apply w-full !flex !flex-col gap-[50px]
+}
+
+.swiper-button {
+  @apply size-15 p-[14px] bg-gr10 rounded-full border border-gr15 transition-opacity duration-150
+}
+
+.swiper-button-disabled {
+  opacity: 0.5 !important;
+}
+
+.swiper-slide {
+  @apply p-10 rounded-[12px] border border-gr15 !flex flex-col gap-[30px]
+}
+
+.nav-wrapper {
+  @apply relative border-t-1 border-gr15 pt-5
+}
+
+.star-bg {
+  @apply outline outline-gr15 bg-gr10 rounded-full size-11 text-[#FFE500] p-[10px]
+}
+
+.email-container {
+  @apply px-6 py-[18px] rounded-[12px] outline outline-gr15
+}
+
+.stars-before-header {
+  @apply before:content-[""] before:absolute before:-top-11 before:-left-5 before:w-[69px] before:h-[30px] before:bg-[url("/stars.svg")] before:bg-no-repeat
+}
+
+.gradient-cards-bg {
+  @apply before:content-[""] before:absolute before:left-0 before:top-0 before:h-[1px] before:w-[200px] before:bg-linear-to-r before:from-pr60 before:to-gr08 after:content-[""] after:absolute after:left-0 after:-top-[1px] after:w-[1px] after:h-[200px] after:bg-linear-to-b after:from-pr60 after:to-gr08
+}

@@ -1,0 +1,419 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "name": "Seaside Serenity",
+      "price": 1250000,
+      "city": "Malibu",
+      "state": "California",
+      "description": "Discover your own piece of paradise with the Seaside Serenity Villa. With an open floor plan, breathtaking ocean views, and direct access to a pristine sandy beach.",
+      "slogan": "Coastal Escapes - Where Waves Beckon",
+      "area": 3500,
+      "type": "Villa",
+      "build_year": 2018,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 2,
+      "name": "Mountain View Retreat",
+      "price": 850000,
+      "city": "Aspen",
+      "state": "Colorado",
+      "description": "Wake up to stunning mountain vistas in this cozy retreat, designed for comfort and elegance.",
+      "slogan": "Alpine Living - Serenity in the Peaks",
+      "area": 2200,
+      "type": "Cottage",
+      "build_year": 2005,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property2.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 3,
+      "name": "Urban Oasis",
+      "price": 950000,
+      "city": "New York",
+      "state": "New York",
+      "description": "A modern condo in the heart of the city, combining luxury with convenience.",
+      "slogan": "City Living - Comfort Meets Style",
+      "area": 1400,
+      "type": "Condo",
+      "build_year": 2012,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property3.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 4,
+      "name": "Lakeside Haven",
+      "price": 1100000,
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "description": "Enjoy tranquil lakeside living in this spacious home with panoramic views of the water.",
+      "slogan": "Lakeside Retreat - Peace by the Water",
+      "area": 3000,
+      "type": "Apartment",
+      "build_year": 2010,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 5,
+      "name": "Desert Mirage",
+      "price": 720000,
+      "city": "Phoenix",
+      "state": "Arizona",
+      "description": "A sun-soaked home with modern amenities and a beautiful backyard pool.",
+      "slogan": "Sunshine Living - Desert Dreams Come True",
+      "area": 2000,
+      "type": "Villa",
+      "build_year": 2015,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property2.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 6,
+      "name": "Bayfront Beauty",
+      "price": 1450000,
+      "city": "Miami",
+      "state": "Florida",
+      "description": "Luxury home with stunning bay views, private dock, and modern interiors.",
+      "slogan": "Waterfront Luxury - Your Slice of Paradise",
+      "area": 3800,
+      "type": "Mansion",
+      "build_year": 2020,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property3.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 7,
+      "name": "Country Charm",
+      "price": 650000,
+      "city": "Austin",
+      "state": "Texas",
+      "description": "Charming home with rustic interiors and a spacious backyard for family gatherings.",
+      "slogan": "Southern Comfort - Cozy Country Living",
+      "area": 1800,
+      "type": "Cottage",
+      "build_year": 2008,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 8,
+      "name": "Skyline Penthouse",
+      "price": 2300000,
+      "city": "Chicago",
+      "state": "Illinois",
+      "description": "A luxurious penthouse with breathtaking city views and high-end finishes.",
+      "slogan": "City Heights - Luxury Above All",
+      "area": 2500,
+      "type": "Penthouse",
+      "build_year": 2019,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property2.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 9,
+      "name": "Forest Hideaway",
+      "price": 780000,
+      "city": "Seattle",
+      "state": "Washington",
+      "description": "Secluded home nestled in the forest with modern amenities and outdoor living spaces.",
+      "slogan": "Nature's Retreat - Live Among the Trees",
+      "area": 2100,
+      "type": "Apartment",
+      "build_year": 2011,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property3.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 10,
+      "name": "Riverside Estate",
+      "price": 1900000,
+      "city": "Boston",
+      "state": "Massachusetts",
+      "description": "Elegant estate with river views, manicured gardens, and luxurious interiors.",
+      "slogan": "Historic Elegance - Riverside Luxury",
+      "area": 4000,
+      "type": "Mansion",
+      "build_year": 2017,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 11,
+      "name": "Coastal Breeze",
+      "price": 1350000,
+      "city": "Santa Monica",
+      "state": "California",
+      "description": "Bright 4-bedroom home just steps from the beach with modern interiors and open spaces.",
+      "slogan": "Beachside Living - Feel the Breeze",
+      "area": 3300,
+      "type": "Villa",
+      "build_year": 2016,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property2.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 12,
+      "name": "Maplewood Manor",
+      "price": 870000,
+      "city": "Portland",
+      "state": "Oregon",
+      "description": "Elegant home with spacious rooms, backyard garden, and classic charm.",
+      "slogan": "Classic Comfort - Elegance in Every Corner",
+      "area": 2300,
+      "type": "Apartment",
+      "build_year": 2009,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property3.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 13,
+      "name": "Sunset Ridge",
+      "price": 980000,
+      "city": "San Diego",
+      "state": "California",
+      "description": "Modern 3-bedroom home with sweeping ocean views and bright interiors.",
+      "slogan": "Ocean Views - Sunset Every Night",
+      "area": 2400,
+      "type": "Villa",
+      "build_year": 2014,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 14,
+      "name": "Hillside Haven",
+      "price": 1120000,
+      "city": "Denver",
+      "state": "Colorado",
+      "description": "Spacious home on a quiet hillside with panoramic views and modern design.",
+      "slogan": "Elevated Living - Peaceful & Private",
+      "area": 3100,
+      "type": "Apartment",
+      "build_year": 2013,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property2.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 15,
+      "name": "Harbor Lights",
+      "price": 1750000,
+      "city": "Seattle",
+      "state": "Washington",
+      "description": "Luxury waterfront home with 4 bedrooms, modern finishes, and breathtaking harbor views.",
+      "slogan": "Waterfront Luxury - Shine Every Day",
+      "area": 3600,
+      "type": "Mansion",
+      "build_year": 2018,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property3.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 16,
+      "name": "Golden Gate Villa",
+      "price": 2100000,
+      "city": "San Francisco",
+      "state": "California",
+      "description": "Elegant villa with sweeping views of the Golden Gate Bridge and luxurious interiors.",
+      "slogan": "Iconic Views - Luxury Redefined",
+      "area": 3800,
+      "type": "Villa",
+      "build_year": 2020,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    },
+    {
+      "id": 17,
+      "name": "Prairie Pines",
+      "price": 690000,
+      "city": "Chicago",
+      "state": "Illinois",
+      "description": "Cozy home surrounded by nature with 3 bedrooms, perfect for a family getaway.",
+      "slogan": "Peaceful Living - Nature at Your Doorstep",
+      "area": 1900,
+      "type": "Cottage",
+      "build_year": 2007,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "features": ["Expansive oceanfront terrace for outdoor entertaining", "Gourmet kitchen with top-of-the-line appliances", "Private beach access for morning strolls and sunset views", "Master suite with a spa-inspired bathroom and ocean-facing balcony", "Private garage and ample storage space"],
+      "images": ["images/properties/property2.png", "images/properties/Image.png", "images/properties/Image(1).png", "images/properties/Image(2).png", "images/properties/Image(3).png", "images/properties/Image(4).png", "images/properties/Image(5).png", "images/properties/Image(6).png", "images/properties/Image(7).png"]
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "rating": 5,
+      "title": "Exceptional Service!",
+      "description": "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
+      "user_photo": "/images/users/user_photo.png",
+      "user_name": "Wade Warren",
+      "user_location": "USA, California"
+    },
+    {
+      "id": 2,
+      "rating": 5,
+      "title": "Efficient and Reliable",
+      "description": "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
+      "user_photo": "/images/users/user_photo1.png",
+      "user_name": "Emelie Thomson",
+      "user_location": "USA, Florida"
+    },
+    {
+      "id": 3,
+      "rating": 5,
+      "title": "Trusted Advisors",
+      "description": "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
+      "user_photo": "/images/users/user_photo2.png",
+      "user_name": "John Mans",
+      "user_location": "USA, Nevada"
+    },
+    {
+      "id": 4,
+      "rating": 5,
+      "title": "Exceptional Service!",
+      "description": "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
+      "user_photo": "/images/users/user_photo.png",
+      "user_name": "Wade Warren",
+      "user_location": "USA, California"
+    },
+    {
+      "id": 5,
+      "rating": 4,
+      "title": "Efficient and Reliable",
+      "description": "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
+      "user_photo": "/images/users/user_photo1.png",
+      "user_name": "Emelie Thomson",
+      "user_location": "USA, Florida"
+    },
+    {
+      "id": 6,
+      "rating": 5,
+      "title": "Trusted Advisors",
+      "description": "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
+      "user_photo": "/images/users/user_photo2.png",
+      "user_name": "John Mans",
+      "user_location": "USA, Nevada"
+    },
+    {
+      "id": 7,
+      "rating": 5,
+      "title": "Exceptional Service!",
+      "description": "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
+      "user_photo": "/images/users/user_photo.png",
+      "user_name": "Wade Warren",
+      "user_location": "USA, California"
+    },
+    {
+      "id": 8,
+      "rating": 5,
+      "title": "Efficient and Reliable",
+      "description": "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
+      "user_photo": "/images/users/user_photo1.png",
+      "user_name": "Emelie Thomson",
+      "user_location": "USA, Florida"
+    },
+    {
+      "id": 9,
+      "rating": 5,
+      "title": "Trusted Advisors",
+      "description": "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
+      "user_photo": "/images/users/user_photo2.png",
+      "user_name": "John Mans",
+      "user_location": "USA, Nevada"
+    }
+  ],
+  "FAQ": [
+    {
+      "question": "How do I search for properties on Estatein?",
+      "description": "Learn how to use our user-friendly search tools to find properties that match your criteria."
+    },
+    {
+      "question": "What documents do I need to sell my property through Estatein?",
+      "description": "Find out about the necessary documentation for listing your property with us."
+    },
+    {
+      "question": "How can I contact an Estatein agent?",
+      "description": "Discover the different ways you can get in touch with our experienced agents."
+    },
+    {
+      "question": "How do I schedule a property viewing?",
+      "description": "Learn how to book an appointment with our agents to visit properties that interest you."
+    },
+    {
+      "question": "Can Estatein help me with property financing?",
+      "description": "Explore the financing options available and how our team can guide you through the process."
+    },
+    {
+      "question": "Is my personal information safe with Estatein?",
+      "description": "Understand how we protect your data and ensure your privacy when using our platform."
+    }
+  ],
+  "clients": [
+    {
+      "name": "ABC Corporation",
+      "domain": "Commercial Real Estate",
+      "category": "Luxury Home Development",
+      "review": "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs.",
+      "link": "/",
+      "year": 2019
+    },
+    {
+      "name": "GreenTech Enterprises",
+      "domain": "Commercial Real Estate",
+      "category": "Retail Space",
+      "review": "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth.",
+      "link": "/",
+      "year": 2018
+    },
+    {
+      "name": "Horizon Builders",
+      "domain": "Residential Real Estate",
+      "category": "Urban Housing Projects",
+      "review": "Working with Estatein streamlined our search for premium residential plots. Their market insights saved us both time and resources.",
+      "link": "/",
+      "year": 2021
+    },
+    {
+      "name": "Stellar Hospitality Group",
+      "domain": "Commercial Real Estate",
+      "category": "Hospitality Development",
+      "review": "Estatein guided us in securing an ideal property for our new luxury hotel. Their negotiation skills and professionalism exceeded expectations.",
+      "link": "/",
+      "year": 2020
+    }
+  ]
+}
